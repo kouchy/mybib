@@ -1,27 +1,42 @@
+@Unpublished{Martial2026,
+  title       = {Multidimensional Reconciliation in Continuous-Variable {QKD}: Review, Coding Schemes, and Open Source Simulation},
+  author      = {Martial, Lucien and Rosio, Alexis, Diamanti, Eleni and Cassagne, Adrien and Gouraud, Baptiste},
+  note        = {(preprint)},
+  year        = {2026},
+  month       = Jun,
+  doi         = {10.48550/arXiv.2508.10481},
+  keywords    = {Simulation tool ; Aff3ct ; LDPC ; High-dimensional reconciliation ; Reverse reconciliation ; CV-QKD Virtual Channel},
+  abstract    = {Continuous-variable quantum key distribution (CV-QKD) requires highly efficient reconciliation techniques to operate at low signal-to-noise ratios and long distances. Multidimensional reconciliation addresses this challenge by transforming the physical Gaussian quantum channel into a virtual binary-input additive white Gaussian noise (BIAWGN) channel, enabling the use of modern errorcorrecting codes. In this work, we review the principles of multidimensional reconciliation, with a particular focus on high-dimensional constructions beyond the algebraic dimensions 1, 2, 4, 8. We describe the construction of the virtual channel, discuss practical coding schemes for reverse reconciliation, and analyse their integration with linear error-correcting codes. We also present an opensource simulation framework, HDirac, implementing multidimensional reconciliation for arbitrary dimensions, and use it to evaluate state-of-the-art LDPC codes. The results highlight key trade-offs between dimension, reconciliation efficiency, and frame error rate, providing practical guidance for CV-QKD system design.},
+  doi         = {10.48550/arXiv.2606.02323},
+  url_Paper   = {https://arxiv.org/pdf/2606.02323},
+  url_Link    = {https://arxiv.org/abs/2606.02323},
+}
+
 @InProceedings{Galvez2026,
   title     = {Benchmarking Deep Learning Convolutions on Energy-constrained {CPUs}},
   author    = {Galvez, Enrique and Cassagne, Adrien and Munier, Alix and Bouyer, Manuel},
-  note      = {(accepted paper)},
+  note      = {(nominated for best paper award)},
   abstract  = {This work evaluates State-of-the-Art convolution algorithms for CPU-based CNN inference. Although most prior studies focus on GPUs or NPUs, CPU implementations remain comparatively under-optimized. Our first contribution is to provide fair benchmarking for embedded CPU inference. We evaluate direct, GEMM-based, and Winograd convolutions across modern CPUs from ARM, Intel, AMD, and NVIDIA vendors, considering both latency and energy efficiency. To the best of our knowledge, this is the first study to present a fair, cross-vendor comparison of CPU energy consumption using a high-resolution socket-level measurement platform. To validate our methodology, we further compare socket-level power measurements with estimates derived from model-specific registers (MSRs), finding that MSRs underestimate the power consumption of convolution inference by 10–30%. Our results show that the ARM\R Cortex-A78AE CPU combined with an implicit GEMM convolution implementation offers the best trade-off between latency and power consumption, achieving ResNet50v1.5 inference in 102 ms with an average power of 25.3 W, corresponding to 2.58 J.},
-  keywords  = {Convolution algorithms ; Benchmarking ; Energy-constrained CPUs ; High performance ; Edge AI},
+  keywords  = {Convolution algorithms ; Benchmarking ; Energy-constrained CPUs ; High performance ; Edge AI ; CNN},
   month     = Jan,
   year      = {2026},
-  doi       = {10.48550/arXiv.2509.26217},
+  doi       = {10.1007/978-3-032-23871-9_},
   booktitle = {Workshop on Design and Architectures for Signal and Image Processing (DASIP)},
   publisher = {Springer},
-  url_Link  = {https://hal.science/hal-05285542},
+  url_Link  = {https://dl.acm.org/doi/10.1007/978-3-032-23871-9_7},
+  url_Paper = {https://hal.science/hal-05285542v2/file/main.pdf},
 }
 
 @Conference{Cassagne2026,
   author      = {Cassagne, Adrien},
   booktitle   = {AI4Industry},
-  note        = {(invited keynote)},
+  note        = {AI4Industry (invited keynote).},
   title       = {Building an {AI} Cluster with Consumer Hardware: Feedback on {Dalek}},
   year        = {2026},
   abstract    = {},
-  keywords    = {},
+  keywords    = {Dalek ; CNN ; DVBS2 ; DVB-S2 ; NCM ; CPU ; GPU ; NPU ; AI},
   month       = Jan,
-  url_Link    = {https://perso.lip6.fr/adrien.cassagne/docs/publications/Cassagne2026%20-%20Building%20an%20AI%20Cluster%20with%20Consumer%20Hardware%20Feedback%20on%20Dalek%20%5Bslides%5D.pdf},
+  url_Link    = {https://ai4industry.fr/},
   url_Slides  = {https://perso.lip6.fr/adrien.cassagne/docs/publications/Cassagne2026%20-%20Building%20an%20AI%20Cluster%20with%20Consumer%20Hardware%20Feedback%20on%20Dalek%20%5Bslides%5D.pdf},
 }
 
@@ -140,7 +155,7 @@
 @Conference{Cassagne2024a,
   author      = {Cassagne, Adrien},
   booktitle   = {Alpes Heterogeneous Computing Workshop},
-  note        = {Alpes Heterogeneous Computing Workshop.},
+  note        = {Alpes Heterogeneous Computing Workshop (invited talk).},
   title       = {StreamPU: A DSEL and a Runtime for Efficient Execution of Streaming Applications on Multicore \& Heterogeneous CPUs},
   year        = {2024},
   address     = {Annecy, France},
@@ -286,7 +301,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @InProceedings{Cassagne2021,
-  author     = {A. Cassagne and M. L\'eonardon and R. Tajan and C. Leroux and C. J\'ego and O. Aumage and D. Barthou},
+  author     = {Cassagne, Adrien and L\'eonardon, Mathieu and Tajan, Romain and Leroux, Camille and J\'ego, Christophe and Aumage, Olivier and Barthou, Denis},
   booktitle  = {International Symposium on Topics in Coding (ISTC)},
   title      = {A Flexible and Portable Real-time {DVB-S2} Transceiver using Multicore and {SIMD} {CPU}s},
   year       = {2021},
@@ -303,7 +318,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @PhdThesis{Cassagne2020,
-  author            = {A. Cassagne},
+  author            = {Cassagne, Adrien},
   school            = {Universit{\'e} de Bordeaux},
   title             = {Optimization and Parallelization Methods for the Software-Defined Radio},
   year              = {2020},
@@ -318,7 +333,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @Article{Cassagne2019a,
-  author     = {A. Cassagne and O. Hartmann and M. L\'eonardon and K. He and C. Leroux and R. Tajan and O. Aumage and D. Barthou and T. Tonnellier and V. Pignoly and B. {Le Gal} and C. J\'ego},
+  author     = {Cassagne, Adrien and Hartmann, Olivier and L\'eonardon, Mathieu and He, Kun and Leroux, Camille and Tajan, Romain and Aumage, Olivier and Barthou, Denis and Tonnellier, Thibaud and Pignoly, Vincent and {Le Gal}, Bertrand and J\'ego, Christophe},
   title      = {{AFF3CT}: A Fast Forward Error Correction Toolbox!},
   journal    = {Elsevier SoftwareX},
   year       = {2019},
@@ -335,7 +350,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @Article{Ghaffari2019,
-  author    = {A. Ghaffari and M. L\'eonardon and A. Cassagne and C. Leroux and Y. Savaria},
+  author    = {Ghaffari, Alireza and L\'eonardon, Mathieu and Cassagne, Adrien and Leroux, Camille and Savaria, Yvon},
   journal   = {IEEE Access},
   title     = {Toward High Performance Implementation of {5G} {SCMA} Algorithms},
   year      = {2019},
@@ -351,7 +366,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @Article{Leonardon2019,
-  author    = {M. L\'eonardon and A. Cassagne and C. Leroux and C. J\'ego and L-P. Hamelin and Y. Savaria},
+  author    = {L\'eonardon, Mathieu and Cassagne, Adrien and Leroux, Camille and J\'ego, Christophe and Hamelin, Louis-Philippe and Savaria, Yvon},
   title     = {Fast and Flexible Software Polar List Decoders},
   journal   = {Springer Journal of Signal Processing Systems (JSPS)},
   year      = {2019},
@@ -368,7 +383,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @Misc{Cassagne2018a,
-  author     = {A. Cassagne and O. Hartmann and M. L\'eonardon and C. Leroux and C. J\'ego},
+  author     = {Cassagne, Adrien and Hartmann, Olivier and L\'eonardon, Mathieu and Leroux, Camille and J\'ego, Christophe},
   title      = {A Fast Forward Error Correction Toolbox: Seminary},
   month      = mar,
   year       = {2018},
@@ -378,7 +393,7 @@ Conclusions. From all reported meteor clusters, we crudely estimate their occurr
 }
 
 @InProceedings{Cassagne2018,
-  author     = {A. Cassagne and O. Aumage and D. Barthou and C. Leroux and C. J\'ego},
+  author     = {Cassagne, Adrien and Aumage, Olivier and Barthou, Denis and Leroux, Camille and J\'ego, Christophe},
   title      = {{MIPP}: A Portable {C++} {SIMD} Wrapper and its use for Error Correction Coding in {5G} Standard},
   booktitle  = {Workshop on Programming Models for SIMD/Vector Processing (WPMVP)},
   year       = {2018},
@@ -395,7 +410,7 @@ As the 5G mobile standard, and its associated channel coding algorithms, are now
 }
 
 @Conference{Cassagne2017a,
-  author     = {A. Cassagne and O. Hartmann and M. L\'eonardon and T. Tonnellier and G. Delbergue and C. Leroux and R. Tajan and B. {Le Gal} and C. J\'ego and O. Aumage and D. Barthou},
+  author     = {Cassagne, Adrien and Hartmann, Olivier and L\'eonardon, Mathieu and Tonnellier, Thibaud and Delbergue, Guillaume and Leroux, Camille and Tajan, Romain and {Le Gal}, Bertrand and J\'ego, Christophe and Aumage, Olivier and Barthou, Denis},
   title      = {Fast Simulation and Prototyping with {AFF3CT}},
   booktitle  = {International Workshop on Signal Processing Systems (SiPS)},
   note       = {International Workshop on Signal Processing Systems (SiPS).},
@@ -410,7 +425,7 @@ As the 5G mobile standard, and its associated channel coding algorithms, are now
 }
 
 @Conference{Cassagne2017,
-  author     = {A. Cassagne and M. L\'eonardon and O. Hartmann and T. Tonnellier and G. Delbergue and V. Giraud and C. Leroux and R. Tajan and B. {Le Gal} and C. J\'ego and O. Aumage and D. Barthou},
+  author     = {Cassagne, Adrien and L\'eonardon, Mathieu and Hartmann, Olivier and Tonnellier, Thibaud and Delbergue, Guillaume and Giraud, Valentin and Leroux, Camille and Tajan, Romain and {Le Gal}, Bertrand and J\'ego, Christophe and Aumage, Olivier and Barthou, Denis},
   title      = {{AFF3CT} : Un environnement de simulation pour le codage de canal},
   booktitle  = {GdR SoC2},
   note       = {GdR SoC2. In french.},
@@ -425,7 +440,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @InProceedings{Cassagne2016b,
-  author     = {A. Cassagne and O. Aumage and C. Leroux and D. Barthou and B. {Le Gal}},
+  author     = {Cassagne, Adrien and Aumage, Olivier and Leroux, Camille and Barthou, Denis and {Le Gal}, Bertrand},
   title      = {Energy Consumption Analysis of Software Polar Decoders on Low Power Processors},
   booktitle  = {European Signal Processing Conference (EUSIPCO)},
   year       = {2016},
@@ -441,7 +456,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @InProceedings{Cassagne2016a,
-  author     = {A. Cassagne and T. Tonnellier and C. Leroux and B. {Le Gal} and O. Aumage and D. Barthou},
+  author     = {Cassagne, Adrien and Tonnellier, Thibaud and Leroux, Camille and {Le Gal}, Bertrand and Aumage, Olivier and Barthou, Denis},
   booktitle  = {International Symposium on Turbo Codes and Iterative Information Processing (ISTC)},
   title      = {Beyond {G}bps Turbo Decoder on Multi-core {CPUs}},
   year       = {2016},
@@ -457,7 +472,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @InProceedings{Cassagne2015c,
-  author     = {A. Cassagne and B. {Le Gal} and C. Leroux and O. Aumage and D. Barthou},
+  author     = {Cassagne, Adrien and {Le Gal}, Bertrand and Leroux, Camille and Aumage, Olivier and Barthou, Denis},
   title      = {An Efficient, Portable and Generic Library for Successive Cancellation Decoding of Polar Codes},
   booktitle  = {International Workshop on Languages and Compilers for Parallel Computing (LCPC)},
   year       = {2015},
@@ -476,7 +491,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @MastersThesis{Cassagne2015b,
-  author         = {A. Cassagne},
+  author         = {Cassagne, Adrien},
   title          = {Étude et implémentation d’une méthode de calcul pour la simulation numérique sur des architectures modernes},
   school         = {EPSI Bordeaux},
   year           = {2015},
@@ -485,7 +500,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @TechReport{Cassagne2015a,
-  author      = {A. Cassagne and J-F. Boussuge and G. Puigt},
+  author      = {Cassagne, Adrien and Boussuge, Jean-Fran{\c c}ois and Puigt, Guillaume},
   institution = {PRACE},
   title       = {High-order Method for a New Generation of Large Eddy Simulation Solver},
   year        = {2015},
@@ -497,7 +512,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @Conference{Cassagne2015,
-  author       = {A. Cassagne and J-F. Boussuge and G. Puigt and N. Villedieu and I. {D'Ast} and A. Genot},
+  author       = {Cassagne, Adrien and Boussuge, Jean-Fran{\c c}ois and Puigt, Guillaume and Villedieu, Nad{\`e}ge and {D'Ast}, Isabelle and Genot, Aur{\'e}lien},
   title        = {{JAGUAR}: A New {CFD} Code Dedicated to Massively Parallel High-Order {LES} Computations on Complex Geometry},
   booktitle    = {International Conference on Applied Aerodynamics (AERO)},
   note         = {International Conference on Applied Aerodynamics (AERO).},
@@ -512,7 +527,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @MastersThesis{Cassagne2014,
-  author         = {A. Cassagne},
+  author         = {Cassagne, Adrien},
   title          = {Implémentation multi {GPU} de la méthode Spectral Differences pour un code de {CFD}},
   school         = {Universit\'e de Bordeaux / EPSI},
   month          = jan,
@@ -521,7 +536,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @TechReport{Cassagne2013b,
-  author      = {A. Cassagne and B. Mortier and D. Pasqualinotto and V. Fr\'echaud},
+  author      = {Cassagne, Adrien and Mortier, Brice and Pasqualinotto, Damien and Fr{\'e}chaud, Valentin},
   title       = {Portage d’un code de lattice {QCD} sur {GPU}},
   institution = {University of Bordeaux},
   year        = {2013},
@@ -532,7 +547,7 @@ canal. Après avoir présenté les enjeux liés à la simulation, nous identifio
 }
 
 @TechReport{Cassagne2013a,
-  author      = {A. Cassagne and A. George and B. Lorendeau and J-C. Papin and A. Rougier},
+  author      = {Cassagne, Adrien and George, Aur{\'e}lien and Lorendeau, Benjamin and Papin, Jean-Charles and Rougier, Antoine},
   title       = {Concurrent Kernel Execution on Graphic Processing Units},
   institution = {Universit\'e de Bordeaux},
   year        = {2013},
